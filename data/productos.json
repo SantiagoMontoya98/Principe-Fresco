@@ -1,0 +1,77 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "name": "Crown Sweatshirt",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": "80.00",
+      "description": "Let them know you’re 90s royalty with this official The Fresh Prince crown pattern sweater. Throw vintage vibes that Uncle Phil would approve of. Featuring woven The Fresh Prince logo on chest. Navy crown print crew neck sweatshirt with white ribbed collar and waist band. Cotton/Poly blend.",
+      "image": [
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865676/productos/Sweatshirt4_1_katfde.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865675/productos/Sweatshirt4_4_zfxwrh.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865675/productos/Sweatshirt4_3_somjgc.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865675/productos/Sweatshirt4_2_omfsnr.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fresh Sweatshirt",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": "80.00",
+      "description": "Sweatshirt with woven the FRESH logo on the chest. Sweatshirt with blue green and red stripes with round neck and Fresh print with round neck. Cotton / polyester blend.",
+      "image": [
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt1_1_e2o4fn.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt1_2_vuyv9r.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865674/productos/Sweatshirt1_3_wo1ojw.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Fresh women's sweatshirt",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": "90.00",
+      "description": "With the Fresh Prince logo woven across the chest. Dark gray women's sweatshirt with Fresh Prince print with pink background and green letters with hood. Cotton / polyester blend.",
+      "image": [
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt2_1_euan4p.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt2_2_cjdvrh.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865671/productos/Sweatshirt2_3_grgzrl.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Fresh Prince and his friend sweatshirt",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": "80.00",
+      "description": "White sweatshirt with the Fresh Prince and his friend printed on the chest. Cotton / polyester blend.",
+      "image": [
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt3_1_zxwmgk.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865673/productos/Sweatshirt3_2_ss4ea3.png",
+        "https://res.cloudinary.com/workshop-principe/image/upload/v1635865672/productos/Sweatshirt3_3_n3swep.png"
+      ]
+    }
+  ]
+}

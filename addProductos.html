@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Agregar productos</title>
+</head>
+
+<body>
+
+  <header>
+    <nav id="navbar">
+      <div>
+        <a id="logo" href="index.html"><img src="./img/logo-fresh.png" alt=""></a>
+      </div>
+      <ul id="row">
+        <li><a class="nav-list" href="productos.html">SHOP</a></li>
+        <li><a class="nav-list" href="index.html">COLLECTION</a></li>
+      </ul>
+      <div id="icons">
+        <a id="shopping" href="#about"></a><img src="./img/shopping.png" alt="">
+        <a id="user" href="#about"></a><img src="./img/user.png" alt="">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <form class="form-productos">
+
+      <h1>Registro de Productos</h1>
+
+      <p class="validaciones"></p>
+
+      <div class="field">
+        <label class="label">Nombre</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" name="nombre" placeholder="Nombre del producto" required>
+          <span class="icon is-small is-left">
+            <i class="fas fa-shopping-bag"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Talla</label>
+        <label class="checkbox">
+          <input type="checkbox" value="S" name="S">
+          S
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="checkbox">
+          <input type="checkbox" value="M" name="M">
+          M
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="checkbox">
+          <input type="checkbox" value="L" name="L">
+          L
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="checkbox">
+          <input type="checkbox" value="XL" name="XL">
+          XL
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="checkbox">
+          <input type="checkbox" value="XXL" name="XXL">
+          XXL
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="label">Precio</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" name="precio" placeholder="Precio del producto" required>
+          <span class="icon is-small is-left">
+            <i class="fas fa-dollar-sign"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Descripción</label>
+        <div class="control has-icons-left">
+          <textarea class="textarea" placeholder="Descripción del producto" name="descripcion"></textarea>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">URL primera imagen</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" name="url1" placeholder="URL primera imagen" required>
+          <span class="icon is-small is-left">
+            <i class="fas fa-link"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">URL segunda imagen</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" name="url2" placeholder="URL segunda imagen" required>
+          <span class="icon is-small is-left">
+            <i class="fas fa-link"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">URL tercera imagen</label>
+        <div class="control has-icons-left">
+          <input class="input" type="text" name="url3" placeholder="URL tercera imagen" required>
+          <span class="icon is-small is-left">
+            <i class="fas fa-link"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field is-grouped is-grouped-centered margin">
+        <p class="control">
+          <input type="submit" class="button" value="Crear">
+        </p>
+        <p class="control">
+          <input type="button" class="button" id="buscar" value="Buscar por nombre de producto">
+        </p>
+        <p class="control">
+          <input type="button" class="button" id="eliminar" value="Eliminar">
+        </p>
+      </div>
+
+
+    </form>
+
+
+  </main>
+
+  <script src="./js/registroProductos.js" type="module"></script>
+
+
+</body>
+
+</html>
